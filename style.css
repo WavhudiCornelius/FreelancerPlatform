@@ -1,0 +1,289 @@
+/* Smartphones (portrait and landscape) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: white;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+    /* navigation bar start*/
+    .header .navbar{
+        background:black;
+        box-shadow: 2px 2px 3px 0 rgba(228, 226, 225, 0.596);
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+        overflow: hidden; 
+    }
+    
+   /* logo start*/
+    .header .navbar .logo {
+      display:inline-block;
+      color: white;
+      position: relative;
+      left: 10%;
+      top: 3px;
+    }
+    /* logo end */
+
+     /* navigation menu start */
+    .header .navbar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
+    }
+    .header .navbar ul a{
+        display: block;
+        padding: 20px 20px 20px 10px;
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        
+    }
+
+    .header ul a:active{
+        background-color: white;
+        color:black;
+    }
+    .header ul a:hover{
+        background-color: white;
+        color:black;
+    }
+    /* navigation menu end */
+
+    /* sign up button start*/
+      .header #signup{
+        position: relative;
+        background-color: #A61C1C;
+        border-radius: 5px;
+        padding: 10px;
+         margin: 15px;
+        color: white;
+        font-weight: bold;
+        border: none;
+        cursor:pointer;
+        
+    }
+    /* sign up button end*/
+
+    /* hamburger menu icon start*/
+    .header .menu{
+        clear: both;
+        max-height: 0;
+        transition: max-height .2s ease-out;
+        
+    }
+    
+    .header .menu-icon{
+        padding: 28px 20px;
+        position: relative;
+        float: right;
+        cursor: pointer;
+    }
+    
+    .header .menu-icon .nav-icon{
+        background-color: white;
+        display: block;
+        height: 2px;
+        width: 18px;
+        position: relative;
+        transition: background .2s ease-out;
+    }
+    
+    .header .menu-icon .nav-icon:before{
+        background-color: white;
+        display: block;
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 5px; 
+        transition: all .2s ease-out;
+    }
+    
+    .header .menu-icon .nav-icon:after{
+        background-color: white;
+        display: block;
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: -5px; 
+        transition: all .2s ease-out;
+    }
+
+         /* hide hamburger toggle(checkbox) start */
+    .header .menu-btn{
+        display: none;
+    }
+        /* hide hamburger toggle(checkbox) end*/ 
+    .header .menu-btn:checked ~ .menu{
+        max-height: 240px;
+    }
+    
+    .header .menu-btn:checked ~ .menu-icon .nav-icon{
+    background-color: transparent;
+    }
+    
+    .header .menu-btn:checked ~ .menu-icon .nav-icon:before{
+       transform: rotate(-45deg); 
+       top: 0;
+    }
+    
+    .header .menu-btn:checked ~ .menu-icon .nav-icon:after{
+        transform: rotate(45deg);  
+        top: 0; 
+    }
+
+    /* hamburger menu icon end*/
+
+     /* End of navigation bar  */
+}
+
+/* Smartphones (landscape) */
+@media only screen and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait)  */
+@media only screen and (max-width : 320px) {
+
+}
+
+/* iPads (portrait and landscape) */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape)  */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait)  */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+}
+
+/* Desktops and laptops  */
+@media only screen and (min-width : 1224px) {
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: white;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+    /* navigation bar */
+    .header{
+        background-color: rgb(3, 3, 3);
+        width: 100vw;
+        height: 100vh;
+    }
+    .header .navbar{
+        background:black;
+        box-shadow: 2px 2px 3px 0 rgba(10, 10, 10, 0.596);
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+        overflow: hidden;  
+    }
+    
+  /* logo start */
+    .header .navbar .logo {
+      display:inline-block; 
+      margin: 20px;
+    }
+     /*logo end  */
+
+     /* navigation menu start */
+    .header .navbar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
+    }
+    .header .navbar ul a{
+        display: block;
+        padding: 30px 30px 30px 20px;
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        
+    }
+    .header li{
+        float: left;
+    }
+    .header li a {
+        padding: 20px 30px;
+    }
+    /* sign up button start */
+    .header #signup{
+        background-color: #A61C1C;
+        border-radius: 5px;
+        padding: 20px 25px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        margin-right: 20px;
+        margin-top: 12px;
+        border: none;
+        cursor: pointer;
+        
+    }
+
+    .header #signup:hover{
+        transform: scale(1.05);
+    }
+    /* sign up button end */
+
+    .header .menu{
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+/* hide hamburger toggle(checkbox) start */
+    .header .navbar .menu-btn {
+        display: none;
+    }
+  /* hide hamburger toggle(checkbox)end */
+
+
+    .header .navbar ul a{
+        display: block;
+        padding: 30px 30px 30px 20px;
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
+    .header ul li:hover{
+        transform: scale(1.2);
+    }
+
+    /* navigation menu end */
+    
+    /* End of navigation bar  */
+
+}
+
+
