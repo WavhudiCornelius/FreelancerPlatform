@@ -27,9 +27,14 @@ and (max-device-width : 480px) {
     .header .navbar .logo {
       display:inline-block;
       color: white;
+      font-weight: bolder;
       position: relative;
       left: 10%;
       top: 3px;
+    }
+
+    .header .navbar .logo a{
+        color: #A61C1C ;
     }
     /* logo end */
 
@@ -62,13 +67,13 @@ and (max-device-width : 480px) {
     /* sign up button start*/
       .header #signup{
         position: relative;
-        background-color: #A61C1C;
+        background-color:black;
         border-radius: 5px;
-        padding: 10px;
-         margin: 15px;
+        padding: 7px;
+        margin: 15px;
         color: white;
         font-weight: bold;
-        border: none;
+        border: white solid 2px;
         cursor:pointer;
         
     }
@@ -243,7 +248,7 @@ and (orientation : portrait) {
         border-radius: 5px;
         padding: 20px 25px;
         color: white;
-        font-weight: bold;
+        font-weight: bolder;
         float: right;
         margin-right: 20px;
         margin-top: 12px;
@@ -251,7 +256,10 @@ and (orientation : portrait) {
         cursor: pointer;
         
     }
-
+    
+    .header .navbar .logo a{
+        color: #A61C1C ;
+    }
     .header #signup:hover{
         transform: scale(1.05);
     }
@@ -281,7 +289,7 @@ and (orientation : portrait) {
     }
 
     /* navigation menu end */
-    
+
     /* End of navigation bar  */
 
 }
