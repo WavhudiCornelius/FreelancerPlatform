@@ -261,6 +261,9 @@ and (orientation : portrait) {
         color: #A61C1C ;
     }
     .header #signup:hover{
+        background-color: black;
+        border-style: solid;
+        border-color: #A61C1C;
         transform: scale(1.05);
     }
     /* sign up button end */
