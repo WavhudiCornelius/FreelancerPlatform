@@ -369,10 +369,10 @@ and (orientation : portrait) {
     }
     /*end*/
     /*button*/
-    .get-started{
-      
-      position: relative;
-      top:80%;
+    button.get-started{
+      position: absolute;
+      top:40%;
+      left:0px;
       color:white;
       font-size: 12pt;
       width: 100px;
