@@ -297,13 +297,14 @@ and (orientation : portrait) {
     
   /*rest od the header*/
     /* circles on screen*/
-    .circle1{
+    .circle1,.circle2,.circle3{
         position: absolute;
         width: 200px;
         height: 200px;
         left: 20px;
         top: 65%;
         z-index: 1;
+        opacity: 0.8;
         border-radius: 50%;
         background: rgba(217, 43, 43, 0.1);
     }
@@ -313,8 +314,15 @@ and (orientation : portrait) {
           height: 300px;
           left: 40%;
           top: 110px;
-          border-radius:50%;
           background: rgba(217, 147, 43, 0.1);
+      }
+      .circle3{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 80%;
+        top: 65%;
+        background: rgba(43, 50, 217, 0.1);
       }
    
     .freelancer-search-panel{
