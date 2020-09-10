@@ -323,6 +323,7 @@ and (orientation : portrait) {
       position: absolute;
       top:30%;
       right:1%;
+      z-index:2;
       background-color: transparent;
       color:white;
       border:none;
@@ -344,6 +345,48 @@ and (orientation : portrait) {
       width: 35%%;
       height: 640px;
     }
+    input.looking-for{
+      /* adjust text size*/
+      font-size:14pt;
+      position: relative;
+      width:60%;
+      float:left;
+      height:10%;
+    }
+    input.department{
+      /*adjust text-size*/
+      font-size:14pt;
+      position: relative;
+      width:40%;
+      height:10%;
+    }
+    .search{
+      
+    }
+    form.search-panel{
+      float: left;
+      width:100%;
+    }
+    .get-started{
+      
+      position: relative;
+      top:80%;
+      color:white;
+      font-size: 12pt;
+      width: 100px;
+      height: 50px;
+      background-color: #A61C1C;
+      border-radius: 5px ;
+      border:none;
+    }
+    .get-started:hover{
+        background-color: black;
+        border-style: solid;
+        border-color: #A61C1C;
+        transform: scale(1.05);
+    }
+    
+    
 }
 
 
