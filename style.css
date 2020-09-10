@@ -295,8 +295,8 @@ and (orientation : portrait) {
 
     /* End of navigation bar  */
     
-    /*Start of body*/
-    /* circle on screen*/
+  /*rest od the header*/
+    /* circles on screen*/
     .circle1{
         position: absolute;
         width: 200px;
@@ -316,7 +316,7 @@ and (orientation : portrait) {
           border-radius:50%;
           background: rgba(217, 147, 43, 0.1);
       }
-    /*image of man*/
+   
     .freelancer-search-panel{
       width: 50%;
       height:70%;
@@ -329,6 +329,7 @@ and (orientation : portrait) {
       border:none;
      
     }
+     /*image of man*/
     .image-container{
       position: relative;
       left:5%;
@@ -338,12 +339,18 @@ and (orientation : portrait) {
       color: white;
       border:none;
     }
-    /*text*/
+    
     
     img.man {
       position: relative;
       width: 35%%;
       height: 640px;
+    }
+    /*end*/
+    /*textfields*/
+    form.search-panel{
+      float: left;
+      width:100%;
     }
     input.looking-for{
       /* adjust text size*/
@@ -360,13 +367,8 @@ and (orientation : portrait) {
       width:40%;
       height:10%;
     }
-    .search{
-      
-    }
-    form.search-panel{
-      float: left;
-      width:100%;
-    }
+    /*end*/
+    /*button*/
     .get-started{
       
       position: relative;
@@ -385,6 +387,7 @@ and (orientation : portrait) {
         border-color: #A61C1C;
         transform: scale(1.05);
     }
+    /*end*/
     
     
 }
