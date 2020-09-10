@@ -294,7 +294,35 @@ and (orientation : portrait) {
     /* navigation menu end */
 
     /* End of navigation bar  */
-
+    
+    /*Start of body*/
+    /* circle on screen*/
+    .circle1{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 20px;
+        top: 65%;
+        z-index: 1;
+        border-radius: 50%;
+        background: rgba(217, 43, 43, 0.1);
+    }
+    /*image of man*/
+    .image-container{
+      position: relative;
+      left:5%;
+      bottom: -14%;
+      z-index:2;
+      float: left;
+      color: white;
+    }
+    /*text*/
+    
+    img.man {
+      position: relative;
+      width: 40%;
+      height: 640px;
+    }
 }
 
 
