@@ -442,6 +442,7 @@
     }
     /*end*/
     
+    /* companies that use product start*/
     .companies .company-logos{
       display: flex;
       justify-content: space-evenly;
@@ -459,6 +460,41 @@
   width: 150px;
   height: 100px;
   }
+
+   /* companies that use product end*/
+main{
+  background-color: #c4c4c4;
+}
+
+/* catecory tabs start */
+ .category-links ul li img{
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+ }
+  .category-links ul li{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: white;
+    
+    font-weight: 550;
+    font-size: 13px;
+    
+  }
+  .category-links ul li a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 7px;
+    right: 7px;
+    padding-left: 10px;
+    
+    
+  }
+  /* category tabs end */
 }
 
 /* Extra Large (xl) */
