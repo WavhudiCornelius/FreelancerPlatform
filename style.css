@@ -240,7 +240,7 @@
     }
     body{
         background-color: white;
-        color: black;
+        color:  rgb(65, 61, 61);
         font-family: Arial, Helvetica, sans-serif;
        
     }
@@ -441,7 +441,7 @@
         transform: scale(1.05);
     }
     /*end*/
-    
+
     /* companies that use product start*/
     .companies .company-logos{
       display: flex;
@@ -450,7 +450,7 @@
 
   }
   .companies{
-      padding: 40px;
+      padding: 30px;
   }
   .companies h2{
       text-align:center;
@@ -463,7 +463,7 @@
 
    /* companies that use product end*/
 main{
-  background-color: #c4c4c4;
+  background-color: rgb(229, 229, 229);
 }
 
 /* catecory tabs start */
@@ -495,7 +495,118 @@ main{
     
   }
   /* category tabs end */
+
+  /* freelancer cards start */
+  
+  .freelancers{
+    margin-top: 15px;
+  }
+
+  /* styles text and headings  start*/
+  .freelancers .freelancers-head{
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .freelancers h2{
+    font-weight: 550;
+    color: rgb(65, 61, 61);
+    
+  }
+
+  .freelancers a {
+    color: rgb(65, 61, 61);
+    text-decoration: none;
+    
+  }
+
+   /* styles text and headings  end*/
+
+
+  .top-freelancers {
+    
+   display: grid;
+   grid-template-columns: 15px 300px 300px 300px 15PX;
+   column-gap: 30px;
+   justify-items: center;
+   justify-content: center;
+   align-items: center;
+  }
+  
+
+  .freelancers .freelancers-head p a{
+    float: right;
+    position: relative;
+    bottom: 25px;
+    right: 9px;
+    color: grey;
+  }
+  .freelancer-card{
+    background-color: white;
+    box-shadow: 2px 1px 1px white;
+  }
+ .freelancer-card .freelancer-profile-img img{
+    width: 300px;
+    height:200px;
+ }
+
+
+
+ .freelancer-card .name{
+   font-weight: 500;
+   
+ }
+ .freelancer-card .skills{
+   display: inline-block;
+   background-color:  rgb(229, 229, 229);
+   color: rgb(110, 107, 107);
+   font-size: 13px;
+   font-weight: bold;
+   border-radius: 25px;
+   padding: 2px;
+   
+ }
+ .fa-chevron-left{
+   cursor: pointer;
+   color: #8f8c8c;
+   
+ }
+
+ .fa-chevron-right{
+  cursor: pointer;
+  color: #8f8c8c;
+  
 }
 
+
+.best-freelancers{
+  display:flex;
+}
+.best-freelancers {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  gap: 25px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+/* stars/ranking start */
+.reveiws{
+  margin-top: 15px;
+  color: rgb(189, 189, 189);
+}
+
+/* stars/ranking end */
+
+.all-categories{
+  margin-top: 15px;
+  position: relative;
+  left: 40%;
+}
+.all-categories a{
+  color: #A61C1C;
+}
+}
 /* Extra Large (xl) */
 @media (min-width: 1280px) { /* ... */ }
