@@ -195,18 +195,20 @@
     input.looking-for{
       /* adjust text size*/
       font-size:11pt;
-      
+      border: 0 2px 0 0;
       width:60%;
       float:left;
       height:10%;
     }
-    input.department{
+    form .department{
       /*adjust text-size*/
       font-size:11pt;
-      
+      background-color: white;
+      border: none;
       width:40%;
       height:10%;
     }
+    s
     /*end*/
     /*button*/
     button.get-started{
@@ -343,7 +345,7 @@
   /*rest od the header*/
     /* circles on screen*/
     .circle1,.circle2,.circle3{
-        position: absolute;
+        position: relative;
         width: 200px;
         height: 200px;
         left: 20px;
@@ -366,16 +368,16 @@
         width: 250px;
         height: 250px;
         left: 80%;
-        top: 65%;
+        top: 60%;
         background: rgba(43, 50, 217, 0.1);
       }
    
     .freelancer-search-panel{
       width: 50%;
       height:70%;
-      position: absolute;
+      position: relative;
       top:30%;
-      right:1%;
+      left:40%;
       z-index:2;
       background-color: transparent;
       color:white;
@@ -419,13 +421,14 @@
       position: relative;
       width:40%;
       height:10%;
+      font-size: 16px;
     }
     /*end*/
     /*button*/
     button.get-started{
-      position: absolute;
-      top:40%;
-      left:0px;
+      position:relative;
+      top: 15px;
+      
       color:white;
       font-size: 12pt;
       width: 100px;
@@ -563,6 +566,7 @@ main{
    font-weight: bold;
    border-radius: 25px;
    padding: 2px;
+   margin-top: 7px;
    
  }
  .fa-chevron-left{
@@ -593,11 +597,28 @@ main{
 
 /* stars/ranking start */
 .reveiws{
-  margin-top: 15px;
+  margin-top: 5px;
   color: rgb(189, 189, 189);
 }
 
 /* stars/ranking end */
+
+/* cost of freelancing sessions */
+.cost{
+  color: rgb(110, 107, 107);
+  
+  position: relative;
+  bottom: 15px;
+  left: 85%;
+  display: inline-block;
+
+}
+
+/* cost of freelancing sessions end*/
+.card-footer{
+  height: 25px;
+}
+
 
 .all-categories{
   margin-top: 15px;
@@ -606,6 +627,37 @@ main{
 }
 .all-categories a{
   color: #A61C1C;
+}
+
+/* how it works */
+.how-it-works h2{
+  text-align: center;
+  margin-top: 25px;
+  font-weight: 550;
+}
+
+.how-it-works-container{
+  margin-top: 15px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.how-it-works-container img{
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+}
+
+.how-it-works-text{
+  margin-top: 15px;
+  width: 250px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.how-it-works-text p{
+  margin-top: 5px;
 }
 }
 /* Extra Large (xl) */
